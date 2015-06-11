@@ -8,6 +8,6 @@ ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update
 
 RUN apt-get install -y \
-    php5-fpm
+    php5-fpm=5.6.7+dfsg-1
 
 CMD ["/usr/bin/php", "-v"]
